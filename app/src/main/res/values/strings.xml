@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TaskToDo</string>
+
+    <string-array name="option_item">
+        <item>Details</item>
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

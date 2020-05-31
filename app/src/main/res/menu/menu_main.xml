@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/sort"
+        android:icon="@drawable/ic_sort"
+        android:title="Sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/sort_by_date_created"
+                android:orderInCategory="1"
+                android:title="Sort By Created Date" />
+
+            <item
+                android:id="@+id/sort_by_due_date"
+                android:orderInCategory="2"
+                android:title="Sort By Due Date" />
+        </menu>
+    </item>
+</menu>
